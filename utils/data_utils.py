@@ -35,9 +35,9 @@ class PadCollate:
         self.graph_type = graph_type
         # self.img_patch = img_patch
         if self.ch:
-            self.tokenizer = AutoTokenizer.from_pretrained('//data/sunhao/bert/bert-base-chinese')
+            self.tokenizer = AutoTokenizer.from_pretrained('bert-base-chinese')
         else:
-            self.tokenizer = AutoTokenizer.from_pretrained('//data/sunhao/bert/bert-base-uncased')
+            self.tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
 
         # self.mask_V = torch.zeros()
 

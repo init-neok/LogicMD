@@ -1,0 +1,43 @@
+8617
+1674
+Downloading (…)okenizer_config.json:   0%|          | 0.00/28.0 [00:00<?, ?B/s]Downloading (…)okenizer_config.json: 100%|##########| 28.0/28.0 [00:00<00:00, 5.14kB/s]
+Downloading (…)lve/main/config.json:   0%|          | 0.00/570 [00:00<?, ?B/s]Downloading (…)lve/main/config.json: 100%|##########| 570/570 [00:00<00:00, 195kB/s]
+Downloading (…)solve/main/vocab.txt:   0%|          | 0.00/232k [00:00<?, ?B/s]Downloading (…)solve/main/vocab.txt: 100%|##########| 232k/232k [00:00<00:00, 250kB/s]Downloading (…)solve/main/vocab.txt: 100%|##########| 232k/232k [00:00<00:00, 249kB/s]
+Downloading (…)/main/tokenizer.json:   0%|          | 0.00/466k [00:00<?, ?B/s]Downloading (…)/main/tokenizer.json: 100%|##########| 466k/466k [00:02<00:00, 203kB/s]Downloading (…)/main/tokenizer.json: 100%|##########| 466k/466k [00:02<00:00, 203kB/s]
+Downloading model.safetensors:   0%|          | 0.00/440M [00:00<?, ?B/s]Downloading model.safetensors:   2%|2         | 10.5M/440M [00:08<05:42, 1.26MB/s]Downloading model.safetensors:   2%|2         | 10.5M/440M [00:19<05:42, 1.26MB/s]Downloading model.safetensors:   5%|4         | 21.0M/440M [00:21<07:15, 963kB/s] Downloading model.safetensors:   7%|7         | 31.5M/440M [00:36<08:31, 799kB/s]Downloading model.safetensors:   7%|7         | 31.5M/440M [00:49<08:31, 799kB/s]Downloading model.safetensors:  10%|9         | 41.9M/440M [00:56<09:58, 665kB/s]Downloading model.safetensors:  10%|9         | 41.9M/440M [01:09<09:58, 665kB/s]Downloading model.safetensors:  12%|#1        | 52.4M/440M [01:32<14:14, 454kB/s]Downloading model.safetensors:  12%|#1        | 52.4M/440M [01:49<14:14, 454kB/s]Downloading model.safetensors:  14%|#4        | 62.9M/440M [03:25<32:06, 196kB/s]Downloading model.safetensors:  14%|#4        | 62.9M/440M [03:39<32:06, 196kB/s]Downloading model.safetensors:  17%|#6        | 73.4M/440M [05:21<43:06, 142kB/s]Downloading model.safetensors:  17%|#6        | 73.4M/440M [05:39<43:06, 142kB/s]Downloading model.safetensors:  19%|#9        | 83.9M/440M [06:45<43:44, 136kB/s]Downloading model.safetensors:  19%|#9        | 83.9M/440M [06:59<43:44, 136kB/s]Downloading model.safetensors:  21%|##1       | 94.4M/440M [09:02<52:46, 109kB/s]Downloading model.safetensors:  21%|##1       | 94.4M/440M [09:19<52:46, 109kB/s]Downloading model.safetensors:  24%|##3       | 105M/440M [11:08<56:10, 99.6kB/s]Downloading model.safetensors:  24%|##3       | 105M/440M [11:19<56:10, 99.6kB/s]Downloading model.safetensors:  26%|##6       | 115M/440M [12:46<53:15, 102kB/s] Downloading model.safetensors:  26%|##6       | 115M/440M [12:59<53:15, 102kB/s]Downloading model.safetensors:  29%|##8       | 126M/440M [13:07<38:59, 134kB/s]Downloading model.safetensors:  29%|##8       | 126M/440M [13:19<38:59, 134kB/s]Downloading model.safetensors:  31%|###       | 136M/440M [14:04<34:39, 146kB/s]Downloading model.safetensors:  31%|###       | 136M/440M [14:19<34:39, 146kB/s]Downloading model.safetensors:  33%|###3      | 147M/440M [16:29<43:48, 112kB/s]Downloading model.safetensors:  33%|###3      | 147M/440M [16:39<43:48, 112kB/s]Traceback (most recent call last):
+  File "train_two_record_model.py", line 339, in <module>
+    metrics_train_final = main(args, experiment=experiment)
+  File "train_two_record_model.py", line 134, in main
+    RFND_Model = RFND(input_size=768, out_size=args.outsize, rnn=args.rnn, rnn_type=args.rnntype, ch=ch, finetune=args.finetune,
+  File "/root/code/LogicMD/models/rule_detection.py", line 48, in __init__
+    self.text_encoder = TextEncoder(input_size=self.input_size, out_size=self.out_size, rnn=self.rnn,
+  File "/root/code/LogicMD/models/component.py", line 137, in __init__
+    self.bert_model = BertModel.from_pretrained('bert-base-uncased')
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/transformers/modeling_utils.py", line 2695, in from_pretrained
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/transformers/utils/hub.py", line 428, in cached_file
+    resolved_file = hf_hub_download(
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1364, in hf_hub_download
+    http_get(
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 541, in http_get
+    for chunk in r.iter_content(chunk_size=10 * 1024 * 1024):
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/requests/models.py", line 758, in generate
+    for chunk in self.raw.stream(chunk_size, decode_content=True):
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/urllib3/response.py", line 576, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/urllib3/response.py", line 519, in read
+    data = self._fp.read(amt) if not fp_closed else b""
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/http/client.py", line 455, in read
+    n = self.readinto(b)
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/http/client.py", line 499, in readinto
+    n = self.fp.readinto(b)
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+Downloading model.safetensors:  33%|###3      | 147M/440M [17:32<35:04, 140kB/s]

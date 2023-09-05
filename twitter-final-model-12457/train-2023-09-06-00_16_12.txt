@@ -1,0 +1,14 @@
+100
+1674
+Downloading model.safetensors:   0%|          | 0.00/440M [00:00<?, ?B/s]Downloading model.safetensors:   5%|4         | 21.0M/440M [00:00<00:02, 149MB/s]Downloading model.safetensors:  10%|9         | 41.9M/440M [00:00<00:02, 178MB/s]Downloading model.safetensors:  17%|#6        | 73.4M/440M [00:00<00:01, 199MB/s]Downloading model.safetensors:  24%|##3       | 105M/440M [00:00<00:01, 206MB/s] Downloading model.safetensors:  31%|###       | 136M/440M [00:00<00:01, 220MB/s]Downloading model.safetensors:  38%|###8      | 168M/440M [00:00<00:01, 226MB/s]Downloading model.safetensors:  45%|####5     | 199M/440M [00:00<00:01, 226MB/s]Downloading model.safetensors:  52%|#####2    | 231M/440M [00:01<00:00, 227MB/s]Downloading model.safetensors:  60%|#####9    | 262M/440M [00:01<00:00, 224MB/s]Downloading model.safetensors:  67%|######6   | 294M/440M [00:01<00:00, 222MB/s]Downloading model.safetensors:  74%|#######3  | 325M/440M [00:01<00:00, 219MB/s]Downloading model.safetensors:  81%|########  | 357M/440M [00:01<00:00, 216MB/s]Downloading model.safetensors:  88%|########8 | 388M/440M [00:01<00:00, 219MB/s]Downloading model.safetensors:  95%|#########5| 419M/440M [00:01<00:00, 221MB/s]Downloading model.safetensors: 100%|##########| 440M/440M [00:02<00:00, 217MB/s]
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "train_two_record_model.py", line 339, in <module>
+    metrics_train_final = main(args, experiment=experiment)
+  File "train_two_record_model.py", line 168, in main
+    train_loss, metrics_train = train_model(dataloader=train_loader, model=RFND_Model, optimizer=optimizer,
+  File "train_two_record_model.py", line 261, in train_model
+    mask_batch_text = mask_batch_text.cuda()
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/torch/cuda/__init__.py", line 247, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available

@@ -27,8 +27,8 @@ Weibo:
 
 
 class Twitter_Set(Dataset):
-    def __init__(self, text_path='/data/sunhao/rulenews/dataset/twitter/texts/twitter_final2.json',
-                 img_path='/data/sunhao/rulenews/dataset/twitter/embedding34.pt', max_length=150, mode='random', phase='train'):
+    def __init__(self, text_path='/root/code/LogicMD/dataset/twitter_final2.json',
+                 img_path='/root/code/LogicMD/dataset/embedding.pt', max_length=150, mode='random', phase='train'):
         self.text_path = text_path
         self.img_path = img_path
         self.max_length = max_length
@@ -41,7 +41,7 @@ class Twitter_Set(Dataset):
             with open(self.text_path, "r", encoding='utf8') as f:
                 data = json.load(f)
             if self.phase == 'train':
-                self.data = data[:8617]
+                self.data = data[:100]
             else:
                 self.data = data[8617:]
 
