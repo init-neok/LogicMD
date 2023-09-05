@@ -204,7 +204,7 @@ class RFND(nn.Module):
                 graph = torch.cat([texts_0, imgs_0], dim=1).cuda()
                 graph = self.gc[gc_i](graph, adj_matrix)
                 texts_0 = graph[:, :l, :]
-                imgs_0 = graph[:, l:, :]
+                imgs_0 = graph[:, l: , :]
         # further to compute the probability
         # list Gc_number_layer, 2, N
         return gc_clause_list
