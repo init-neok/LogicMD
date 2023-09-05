@@ -132,11 +132,11 @@ class TextEncoder(nn.Module):
         else:
             self.lstm = None
         if self.ch:
-            self.bert_model = BertModel.from_pretrained('//data/sunhao/bert/bert-base-chinese')
+            self.bert_model = BertModel.from_pretrained('bert-base-chinese')
         else:
-            self.bert_model = BertModel.from_pretrained('//data/sunhao/bert/bert-base-uncased')
+            self.bert_model = BertModel.from_pretrained('bert-base-uncased')
 
-        self.norm = nn.LayerNorm(self.out_size)
+        self.norm = nn.LayerNorm(self.out_size) 
         self.linear1 = nn.Linear(self.input_size, 500)
         self.linear2 = nn.Linear(500, self.out_size)
         self.relu1 = nn.ReLU()

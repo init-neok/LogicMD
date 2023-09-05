@@ -211,18 +211,18 @@ class RFND(nn.Module):
 
             # logic
     def generate_topk_instance(self, texts, imgs, mask_T, mask_TT, mask_TV):
-        # (N, L, O)
-        E_T = self.linear_T(texts)
+        # (N, L, 200)
+        E_T = self.linear_T(texts)#不改变形状
         E_V = self.linear_V(imgs)
-        l = texts.size()[1]
-        r = imgs.size()[1]
+        l = texts.size()[1]#token数量
+        r = imgs.size()[1]#patch数量
         # N,L,1,D
         texts_1 = texts.unsqueeze(2)
         # N,1,L,D
         texts_2 = texts.unsqueeze(1)
         # N,r,1,D
         imgs_1 = imgs.unsqueeze(2)
-        # N,1,r,D
+        # N,1,r,D=200
         imgs_2 = imgs.unsqueeze(1)
         texts_T_T_1 = texts_1.expand(-1, -1, l, -1)
         texts_T_T_2 = texts_2.expand(-1, l, -1, -1)
