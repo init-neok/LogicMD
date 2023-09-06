@@ -11,7 +11,7 @@ class GraphConvolution(nn.Module):
         super(GraphConvolution, self).__init__()
         self.in_features = in_features
         self.out_features = out_features
-        self.weight = nn.Parameter(nn.init.xavier_uniform_(torch.FloatTensor(in_features, out_features)))
+        self.weight = nn.Parameter(nn.init.xavier_uniform_(torch.FloatTensor(in_features, out_features)))#200 200
         self.norm = nn.LayerNorm(out_features)
         if bias:
             self.bias = nn.Parameter(nn.init.xavier_uniform_(torch.FloatTensor(out_features,1)).squeeze())
@@ -19,11 +19,16 @@ class GraphConvolution(nn.Module):
             self.register_parameter('bias', None)
         self.relu = nn.ReLU()
 
-    def forward(self, text, adj):
+    def forward(self, text, adj):#text代表的是图的节点矩阵行为特征之和 列为200
+        print('adj matrix shape is :@@##',adj.shape)
         hidden = torch.matmul(text, self.weight)
         # can remove + 1
         denom = torch.sum(adj, dim=2, keepdim=True) + 1
+        print('adj乘hidden.float()是m+r 200')
+        print('denom的shape是:',denom.shape)
+        
         output = torch.matmul(adj, hidden.float()) / denom
+        print('output的shape是:',output.shape)
         if self.bias is not None:
             return self.norm(self.relu(output + self.bias))
         else:

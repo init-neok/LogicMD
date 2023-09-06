@@ -1,0 +1,1136 @@
+100
+1674
+0it [00:00, ?it/s]##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+1it [00:01,  1.47s/it]##mask_batch_T shape is : torch.Size([32, 32])
+##mask_batch_TT shape is : torch.Size([32, 32, 32])
+E_T_T.shapetorch.Size([32, 1024, 200]),E_T_V.shapetorch.Size([32, 1568, 200]),E_V_V.shapetorch.Size([32, 1568, 200])
+mask_T的形状是torch.Size([32, 32])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 81, 81])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 81, 1])
+output的shape是: torch.Size([32, 81, 200])
+##mask_batch_T shape is : torch.Size([32, 32])
+##mask_batch_TT shape is : torch.Size([32, 32, 32])
+E_T_T.shapetorch.Size([32, 1024, 200]),E_T_V.shapetorch.Size([32, 1568, 200]),E_V_V.shapetorch.Size([32, 1568, 200])
+mask_T的形状是torch.Size([32, 32])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 81, 81])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 81, 1])
+output的shape是: torch.Size([32, 81, 200])
+##mask_batch_T shape is : torch.Size([32, 32])
+##mask_batch_TT shape is : torch.Size([32, 32, 32])
+E_T_T.shapetorch.Size([32, 1024, 200]),E_T_V.shapetorch.Size([32, 1568, 200]),E_V_V.shapetorch.Size([32, 1568, 200])
+mask_T的形状是torch.Size([32, 32])，他负责决定哪里填成负无穷
+2it [00:01,  1.13it/s]##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+3it [00:02,  1.47it/s]3it [00:02,  1.22it/s]
+0 0 41 55
+/root/code/LogicMD/utils/data_utils.py:223: RuntimeWarning: invalid value encountered in scalar divide
+  r_non_sarcasm = confusion[0][0] / (confusion[0][0] + confusion[0][1])
+Train Epoch 0: Time 2.7705, Acc: 0.5729, Loss: 2.1253, Rumor_R: 0.5729, Rumor_P: 1.0000, Rumor_F: 0.7285, Non_Rumor_R: 0.0000, Non_Rumor_P: 0.0000, Non_Rumor_F1: 0.0000
+0it [00:00, ?it/s]##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+1it [00:00,  3.08it/s]##mask_batch_T shape is : torch.Size([32, 22])
+##mask_batch_TT shape is : torch.Size([32, 22, 22])
+E_T_T.shapetorch.Size([32, 484, 200]),E_T_V.shapetorch.Size([32, 1078, 200]),E_V_V.shapetorch.Size([32, 1078, 200])
+mask_T的形状是torch.Size([32, 22])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 71, 71])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 71, 1])
+output的shape是: torch.Size([32, 71, 200])
+##mask_batch_T shape is : torch.Size([32, 22])
+##mask_batch_TT shape is : torch.Size([32, 22, 22])
+E_T_T.shapetorch.Size([32, 484, 200]),E_T_V.shapetorch.Size([32, 1078, 200]),E_V_V.shapetorch.Size([32, 1078, 200])
+mask_T的形状是torch.Size([32, 22])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 71, 71])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 71, 1])
+output的shape是: torch.Size([32, 71, 200])
+##mask_batch_T shape is : torch.Size([32, 22])
+##mask_batch_TT shape is : torch.Size([32, 22, 22])
+E_T_T.shapetorch.Size([32, 484, 200]),E_T_V.shapetorch.Size([32, 1078, 200]),E_V_V.shapetorch.Size([32, 1078, 200])
+mask_T的形状是torch.Size([32, 22])，他负责决定哪里填成负无穷
+2it [00:00,  3.39it/s]##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+3it [00:00,  3.52it/s]##mask_batch_T shape is : torch.Size([32, 26])
+##mask_batch_TT shape is : torch.Size([32, 26, 26])
+E_T_T.shapetorch.Size([32, 676, 200]),E_T_V.shapetorch.Size([32, 1274, 200]),E_V_V.shapetorch.Size([32, 1274, 200])
+mask_T的形状是torch.Size([32, 26])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 75, 75])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 75, 1])
+output的shape是: torch.Size([32, 75, 200])
+##mask_batch_T shape is : torch.Size([32, 26])
+##mask_batch_TT shape is : torch.Size([32, 26, 26])
+E_T_T.shapetorch.Size([32, 676, 200]),E_T_V.shapetorch.Size([32, 1274, 200]),E_V_V.shapetorch.Size([32, 1274, 200])
+mask_T的形状是torch.Size([32, 26])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 75, 75])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 75, 1])
+output的shape是: torch.Size([32, 75, 200])
+##mask_batch_T shape is : torch.Size([32, 26])
+##mask_batch_TT shape is : torch.Size([32, 26, 26])
+E_T_T.shapetorch.Size([32, 676, 200]),E_T_V.shapetorch.Size([32, 1274, 200]),E_V_V.shapetorch.Size([32, 1274, 200])
+mask_T的形状是torch.Size([32, 26])，他负责决定哪里填成负无穷
+4it [00:01,  3.55it/s]##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+5it [00:01,  3.54it/s]##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+6it [00:01,  3.53it/s]##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+7it [00:02,  3.44it/s]##mask_batch_T shape is : torch.Size([32, 19])
+##mask_batch_TT shape is : torch.Size([32, 19, 19])
+E_T_T.shapetorch.Size([32, 361, 200]),E_T_V.shapetorch.Size([32, 931, 200]),E_V_V.shapetorch.Size([32, 931, 200])
+mask_T的形状是torch.Size([32, 19])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 68, 68])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 68, 1])
+output的shape是: torch.Size([32, 68, 200])
+##mask_batch_T shape is : torch.Size([32, 19])
+##mask_batch_TT shape is : torch.Size([32, 19, 19])
+E_T_T.shapetorch.Size([32, 361, 200]),E_T_V.shapetorch.Size([32, 931, 200]),E_V_V.shapetorch.Size([32, 931, 200])
+mask_T的形状是torch.Size([32, 19])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 68, 68])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 68, 1])
+output的shape是: torch.Size([32, 68, 200])
+##mask_batch_T shape is : torch.Size([32, 19])
+##mask_batch_TT shape is : torch.Size([32, 19, 19])
+E_T_T.shapetorch.Size([32, 361, 200]),E_T_V.shapetorch.Size([32, 931, 200]),E_V_V.shapetorch.Size([32, 931, 200])
+mask_T的形状是torch.Size([32, 19])，他负责决定哪里填成负无穷
+8it [00:02,  3.52it/s]##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+9it [00:02,  3.58it/s]##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+10it [00:02,  3.61it/s]##mask_batch_T shape is : torch.Size([32, 29])
+##mask_batch_TT shape is : torch.Size([32, 29, 29])
+E_T_T.shapetorch.Size([32, 841, 200]),E_T_V.shapetorch.Size([32, 1421, 200]),E_V_V.shapetorch.Size([32, 1421, 200])
+mask_T的形状是torch.Size([32, 29])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 78, 78])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 78, 1])
+output的shape是: torch.Size([32, 78, 200])
+##mask_batch_T shape is : torch.Size([32, 29])
+##mask_batch_TT shape is : torch.Size([32, 29, 29])
+E_T_T.shapetorch.Size([32, 841, 200]),E_T_V.shapetorch.Size([32, 1421, 200]),E_V_V.shapetorch.Size([32, 1421, 200])
+mask_T的形状是torch.Size([32, 29])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 78, 78])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 78, 1])
+output的shape是: torch.Size([32, 78, 200])
+##mask_batch_T shape is : torch.Size([32, 29])
+##mask_batch_TT shape is : torch.Size([32, 29, 29])
+E_T_T.shapetorch.Size([32, 841, 200]),E_T_V.shapetorch.Size([32, 1421, 200]),E_V_V.shapetorch.Size([32, 1421, 200])
+mask_T的形状是torch.Size([32, 29])，他负责决定哪里填成负无穷
+11it [00:03,  3.56it/s]##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+12it [00:03,  3.57it/s]##mask_batch_T shape is : torch.Size([32, 29])
+##mask_batch_TT shape is : torch.Size([32, 29, 29])
+E_T_T.shapetorch.Size([32, 841, 200]),E_T_V.shapetorch.Size([32, 1421, 200]),E_V_V.shapetorch.Size([32, 1421, 200])
+mask_T的形状是torch.Size([32, 29])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 78, 78])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 78, 1])
+output的shape是: torch.Size([32, 78, 200])
+##mask_batch_T shape is : torch.Size([32, 29])
+##mask_batch_TT shape is : torch.Size([32, 29, 29])
+E_T_T.shapetorch.Size([32, 841, 200]),E_T_V.shapetorch.Size([32, 1421, 200]),E_V_V.shapetorch.Size([32, 1421, 200])
+mask_T的形状是torch.Size([32, 29])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 78, 78])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 78, 1])
+output的shape是: torch.Size([32, 78, 200])
+##mask_batch_T shape is : torch.Size([32, 29])
+##mask_batch_TT shape is : torch.Size([32, 29, 29])
+E_T_T.shapetorch.Size([32, 841, 200]),E_T_V.shapetorch.Size([32, 1421, 200]),E_V_V.shapetorch.Size([32, 1421, 200])
+mask_T的形状是torch.Size([32, 29])，他负责决定哪里填成负无穷
+13it [00:03,  3.51it/s]##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+14it [00:03,  3.56it/s]##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+15it [00:04,  3.57it/s]##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+16it [00:04,  3.59it/s]##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 76, 76])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 76, 1])
+output的shape是: torch.Size([32, 76, 200])
+##mask_batch_T shape is : torch.Size([32, 27])
+##mask_batch_TT shape is : torch.Size([32, 27, 27])
+E_T_T.shapetorch.Size([32, 729, 200]),E_T_V.shapetorch.Size([32, 1323, 200]),E_V_V.shapetorch.Size([32, 1323, 200])
+mask_T的形状是torch.Size([32, 27])，他负责决定哪里填成负无穷
+17it [00:04,  3.55it/s]##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+18it [00:05,  3.53it/s]##mask_batch_T shape is : torch.Size([32, 26])
+##mask_batch_TT shape is : torch.Size([32, 26, 26])
+E_T_T.shapetorch.Size([32, 676, 200]),E_T_V.shapetorch.Size([32, 1274, 200]),E_V_V.shapetorch.Size([32, 1274, 200])
+mask_T的形状是torch.Size([32, 26])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 75, 75])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 75, 1])
+output的shape是: torch.Size([32, 75, 200])
+##mask_batch_T shape is : torch.Size([32, 26])
+##mask_batch_TT shape is : torch.Size([32, 26, 26])
+E_T_T.shapetorch.Size([32, 676, 200]),E_T_V.shapetorch.Size([32, 1274, 200]),E_V_V.shapetorch.Size([32, 1274, 200])
+mask_T的形状是torch.Size([32, 26])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 75, 75])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 75, 1])
+output的shape是: torch.Size([32, 75, 200])
+##mask_batch_T shape is : torch.Size([32, 26])
+##mask_batch_TT shape is : torch.Size([32, 26, 26])
+E_T_T.shapetorch.Size([32, 676, 200]),E_T_V.shapetorch.Size([32, 1274, 200]),E_V_V.shapetorch.Size([32, 1274, 200])
+mask_T的形状是torch.Size([32, 26])，他负责决定哪里填成负无穷
+19it [00:05,  3.47it/s]##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 74, 74])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 74, 1])
+output的shape是: torch.Size([32, 74, 200])
+##mask_batch_T shape is : torch.Size([32, 25])
+##mask_batch_TT shape is : torch.Size([32, 25, 25])
+E_T_T.shapetorch.Size([32, 625, 200]),E_T_V.shapetorch.Size([32, 1225, 200]),E_V_V.shapetorch.Size([32, 1225, 200])
+mask_T的形状是torch.Size([32, 25])，他负责决定哪里填成负无穷
+20it [00:05,  3.51it/s]##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+21it [00:05,  3.55it/s]##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+22it [00:06,  3.59it/s]##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+23it [00:06,  3.60it/s]##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+24it [00:06,  3.61it/s]##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+25it [00:07,  3.60it/s]##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+26it [00:07,  3.62it/s]##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+27it [00:07,  3.62it/s]##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 73, 73])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 73, 1])
+output的shape是: torch.Size([32, 73, 200])
+##mask_batch_T shape is : torch.Size([32, 24])
+##mask_batch_TT shape is : torch.Size([32, 24, 24])
+E_T_T.shapetorch.Size([32, 576, 200]),E_T_V.shapetorch.Size([32, 1176, 200]),E_V_V.shapetorch.Size([32, 1176, 200])
+mask_T的形状是torch.Size([32, 24])，他负责决定哪里填成负无穷
+28it [00:07,  3.65it/s]##mask_batch_T shape is : torch.Size([32, 26])
+##mask_batch_TT shape is : torch.Size([32, 26, 26])
+E_T_T.shapetorch.Size([32, 676, 200]),E_T_V.shapetorch.Size([32, 1274, 200]),E_V_V.shapetorch.Size([32, 1274, 200])
+mask_T的形状是torch.Size([32, 26])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 75, 75])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 75, 1])
+output的shape是: torch.Size([32, 75, 200])
+##mask_batch_T shape is : torch.Size([32, 26])
+##mask_batch_TT shape is : torch.Size([32, 26, 26])
+E_T_T.shapetorch.Size([32, 676, 200]),E_T_V.shapetorch.Size([32, 1274, 200]),E_V_V.shapetorch.Size([32, 1274, 200])
+mask_T的形状是torch.Size([32, 26])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 75, 75])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 75, 1])
+output的shape是: torch.Size([32, 75, 200])
+##mask_batch_T shape is : torch.Size([32, 26])
+##mask_batch_TT shape is : torch.Size([32, 26, 26])
+E_T_T.shapetorch.Size([32, 676, 200]),E_T_V.shapetorch.Size([32, 1274, 200]),E_V_V.shapetorch.Size([32, 1274, 200])
+mask_T的形状是torch.Size([32, 26])，他负责决定哪里填成负无穷
+29it [00:08,  3.65it/s]##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+30it [00:08,  3.70it/s]##mask_batch_T shape is : torch.Size([32, 19])
+##mask_batch_TT shape is : torch.Size([32, 19, 19])
+E_T_T.shapetorch.Size([32, 361, 200]),E_T_V.shapetorch.Size([32, 931, 200]),E_V_V.shapetorch.Size([32, 931, 200])
+mask_T的形状是torch.Size([32, 19])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 68, 68])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 68, 1])
+output的shape是: torch.Size([32, 68, 200])
+##mask_batch_T shape is : torch.Size([32, 19])
+##mask_batch_TT shape is : torch.Size([32, 19, 19])
+E_T_T.shapetorch.Size([32, 361, 200]),E_T_V.shapetorch.Size([32, 931, 200]),E_V_V.shapetorch.Size([32, 931, 200])
+mask_T的形状是torch.Size([32, 19])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 68, 68])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 68, 1])
+output的shape是: torch.Size([32, 68, 200])
+##mask_batch_T shape is : torch.Size([32, 19])
+##mask_batch_TT shape is : torch.Size([32, 19, 19])
+E_T_T.shapetorch.Size([32, 361, 200]),E_T_V.shapetorch.Size([32, 931, 200]),E_V_V.shapetorch.Size([32, 931, 200])
+mask_T的形状是torch.Size([32, 19])，他负责决定哪里填成负无穷
+31it [00:08,  3.74it/s]##mask_batch_T shape is : torch.Size([32, 13])
+##mask_batch_TT shape is : torch.Size([32, 13, 13])
+E_T_T.shapetorch.Size([32, 169, 200]),E_T_V.shapetorch.Size([32, 637, 200]),E_V_V.shapetorch.Size([32, 637, 200])
+mask_T的形状是torch.Size([32, 13])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 62, 62])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 62, 1])
+output的shape是: torch.Size([32, 62, 200])
+##mask_batch_T shape is : torch.Size([32, 13])
+##mask_batch_TT shape is : torch.Size([32, 13, 13])
+E_T_T.shapetorch.Size([32, 169, 200]),E_T_V.shapetorch.Size([32, 637, 200]),E_V_V.shapetorch.Size([32, 637, 200])
+mask_T的形状是torch.Size([32, 13])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 62, 62])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 62, 1])
+output的shape是: torch.Size([32, 62, 200])
+##mask_batch_T shape is : torch.Size([32, 13])
+##mask_batch_TT shape is : torch.Size([32, 13, 13])
+E_T_T.shapetorch.Size([32, 169, 200]),E_T_V.shapetorch.Size([32, 637, 200]),E_V_V.shapetorch.Size([32, 637, 200])
+mask_T的形状是torch.Size([32, 13])，他负责决定哪里填成负无穷
+32it [00:08,  3.78it/s]##mask_batch_T shape is : torch.Size([32, 12])
+##mask_batch_TT shape is : torch.Size([32, 12, 12])
+E_T_T.shapetorch.Size([32, 144, 200]),E_T_V.shapetorch.Size([32, 588, 200]),E_V_V.shapetorch.Size([32, 588, 200])
+mask_T的形状是torch.Size([32, 12])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 61, 61])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 61, 1])
+output的shape是: torch.Size([32, 61, 200])
+##mask_batch_T shape is : torch.Size([32, 12])
+##mask_batch_TT shape is : torch.Size([32, 12, 12])
+E_T_T.shapetorch.Size([32, 144, 200]),E_T_V.shapetorch.Size([32, 588, 200]),E_V_V.shapetorch.Size([32, 588, 200])
+mask_T的形状是torch.Size([32, 12])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 61, 61])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 61, 1])
+output的shape是: torch.Size([32, 61, 200])
+##mask_batch_T shape is : torch.Size([32, 12])
+##mask_batch_TT shape is : torch.Size([32, 12, 12])
+E_T_T.shapetorch.Size([32, 144, 200]),E_T_V.shapetorch.Size([32, 588, 200]),E_V_V.shapetorch.Size([32, 588, 200])
+mask_T的形状是torch.Size([32, 12])，他负责决定哪里填成负无穷
+33it [00:09,  3.79it/s]##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+34it [00:09,  3.82it/s]##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+35it [00:09,  3.78it/s]##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+36it [00:09,  3.79it/s]##mask_batch_T shape is : torch.Size([32, 15])
+##mask_batch_TT shape is : torch.Size([32, 15, 15])
+E_T_T.shapetorch.Size([32, 225, 200]),E_T_V.shapetorch.Size([32, 735, 200]),E_V_V.shapetorch.Size([32, 735, 200])
+mask_T的形状是torch.Size([32, 15])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 64, 64])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 64, 1])
+output的shape是: torch.Size([32, 64, 200])
+##mask_batch_T shape is : torch.Size([32, 15])
+##mask_batch_TT shape is : torch.Size([32, 15, 15])
+E_T_T.shapetorch.Size([32, 225, 200]),E_T_V.shapetorch.Size([32, 735, 200]),E_V_V.shapetorch.Size([32, 735, 200])
+mask_T的形状是torch.Size([32, 15])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 64, 64])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 64, 1])
+output的shape是: torch.Size([32, 64, 200])
+##mask_batch_T shape is : torch.Size([32, 15])
+##mask_batch_TT shape is : torch.Size([32, 15, 15])
+E_T_T.shapetorch.Size([32, 225, 200]),E_T_V.shapetorch.Size([32, 735, 200]),E_V_V.shapetorch.Size([32, 735, 200])
+mask_T的形状是torch.Size([32, 15])，他负责决定哪里填成负无穷
+37it [00:10,  3.80it/s]##mask_batch_T shape is : torch.Size([32, 14])
+##mask_batch_TT shape is : torch.Size([32, 14, 14])
+E_T_T.shapetorch.Size([32, 196, 200]),E_T_V.shapetorch.Size([32, 686, 200]),E_V_V.shapetorch.Size([32, 686, 200])
+mask_T的形状是torch.Size([32, 14])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 63, 63])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 63, 1])
+output的shape是: torch.Size([32, 63, 200])
+##mask_batch_T shape is : torch.Size([32, 14])
+##mask_batch_TT shape is : torch.Size([32, 14, 14])
+E_T_T.shapetorch.Size([32, 196, 200]),E_T_V.shapetorch.Size([32, 686, 200]),E_V_V.shapetorch.Size([32, 686, 200])
+mask_T的形状是torch.Size([32, 14])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 63, 63])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 63, 1])
+output的shape是: torch.Size([32, 63, 200])
+##mask_batch_T shape is : torch.Size([32, 14])
+##mask_batch_TT shape is : torch.Size([32, 14, 14])
+E_T_T.shapetorch.Size([32, 196, 200]),E_T_V.shapetorch.Size([32, 686, 200]),E_V_V.shapetorch.Size([32, 686, 200])
+mask_T的形状是torch.Size([32, 14])，他负责决定哪里填成负无穷
+38it [00:10,  3.80it/s]##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+39it [00:10,  3.80it/s]##mask_batch_T shape is : torch.Size([32, 13])
+##mask_batch_TT shape is : torch.Size([32, 13, 13])
+E_T_T.shapetorch.Size([32, 169, 200]),E_T_V.shapetorch.Size([32, 637, 200]),E_V_V.shapetorch.Size([32, 637, 200])
+mask_T的形状是torch.Size([32, 13])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 62, 62])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 62, 1])
+output的shape是: torch.Size([32, 62, 200])
+##mask_batch_T shape is : torch.Size([32, 13])
+##mask_batch_TT shape is : torch.Size([32, 13, 13])
+E_T_T.shapetorch.Size([32, 169, 200]),E_T_V.shapetorch.Size([32, 637, 200]),E_V_V.shapetorch.Size([32, 637, 200])
+mask_T的形状是torch.Size([32, 13])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 62, 62])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 62, 1])
+output的shape是: torch.Size([32, 62, 200])
+##mask_batch_T shape is : torch.Size([32, 13])
+##mask_batch_TT shape is : torch.Size([32, 13, 13])
+E_T_T.shapetorch.Size([32, 169, 200]),E_T_V.shapetorch.Size([32, 637, 200]),E_V_V.shapetorch.Size([32, 637, 200])
+mask_T的形状是torch.Size([32, 13])，他负责决定哪里填成负无穷
+40it [00:11,  3.82it/s]##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 66, 66])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 66, 1])
+output的shape是: torch.Size([32, 66, 200])
+##mask_batch_T shape is : torch.Size([32, 17])
+##mask_batch_TT shape is : torch.Size([32, 17, 17])
+E_T_T.shapetorch.Size([32, 289, 200]),E_T_V.shapetorch.Size([32, 833, 200]),E_V_V.shapetorch.Size([32, 833, 200])
+mask_T的形状是torch.Size([32, 17])，他负责决定哪里填成负无穷
+41it [00:11,  3.80it/s]##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+42it [00:11,  3.83it/s]##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 72, 72])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 72, 1])
+output的shape是: torch.Size([32, 72, 200])
+##mask_batch_T shape is : torch.Size([32, 23])
+##mask_batch_TT shape is : torch.Size([32, 23, 23])
+E_T_T.shapetorch.Size([32, 529, 200]),E_T_V.shapetorch.Size([32, 1127, 200]),E_V_V.shapetorch.Size([32, 1127, 200])
+mask_T的形状是torch.Size([32, 23])，他负责决定哪里填成负无穷
+43it [00:11,  3.76it/s]##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+44it [00:12,  3.73it/s]##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+45it [00:12,  3.72it/s]##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+46it [00:12,  3.71it/s]##mask_batch_T shape is : torch.Size([32, 22])
+##mask_batch_TT shape is : torch.Size([32, 22, 22])
+E_T_T.shapetorch.Size([32, 484, 200]),E_T_V.shapetorch.Size([32, 1078, 200]),E_V_V.shapetorch.Size([32, 1078, 200])
+mask_T的形状是torch.Size([32, 22])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 71, 71])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 71, 1])
+output的shape是: torch.Size([32, 71, 200])
+##mask_batch_T shape is : torch.Size([32, 22])
+##mask_batch_TT shape is : torch.Size([32, 22, 22])
+E_T_T.shapetorch.Size([32, 484, 200]),E_T_V.shapetorch.Size([32, 1078, 200]),E_V_V.shapetorch.Size([32, 1078, 200])
+mask_T的形状是torch.Size([32, 22])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 71, 71])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 71, 1])
+output的shape是: torch.Size([32, 71, 200])
+##mask_batch_T shape is : torch.Size([32, 22])
+##mask_batch_TT shape is : torch.Size([32, 22, 22])
+E_T_T.shapetorch.Size([32, 484, 200]),E_T_V.shapetorch.Size([32, 1078, 200]),E_V_V.shapetorch.Size([32, 1078, 200])
+mask_T的形状是torch.Size([32, 22])，他负责决定哪里填成负无穷
+47it [00:12,  3.69it/s]##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 69, 69])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 69, 1])
+output的shape是: torch.Size([32, 69, 200])
+##mask_batch_T shape is : torch.Size([32, 20])
+##mask_batch_TT shape is : torch.Size([32, 20, 20])
+E_T_T.shapetorch.Size([32, 400, 200]),E_T_V.shapetorch.Size([32, 980, 200]),E_V_V.shapetorch.Size([32, 980, 200])
+mask_T的形状是torch.Size([32, 20])，他负责决定哪里填成负无穷
+48it [00:13,  3.72it/s]##mask_batch_T shape is : torch.Size([32, 19])
+##mask_batch_TT shape is : torch.Size([32, 19, 19])
+E_T_T.shapetorch.Size([32, 361, 200]),E_T_V.shapetorch.Size([32, 931, 200]),E_V_V.shapetorch.Size([32, 931, 200])
+mask_T的形状是torch.Size([32, 19])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 68, 68])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 68, 1])
+output的shape是: torch.Size([32, 68, 200])
+##mask_batch_T shape is : torch.Size([32, 19])
+##mask_batch_TT shape is : torch.Size([32, 19, 19])
+E_T_T.shapetorch.Size([32, 361, 200]),E_T_V.shapetorch.Size([32, 931, 200]),E_V_V.shapetorch.Size([32, 931, 200])
+mask_T的形状是torch.Size([32, 19])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 68, 68])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 68, 1])
+output的shape是: torch.Size([32, 68, 200])
+##mask_batch_T shape is : torch.Size([32, 19])
+##mask_batch_TT shape is : torch.Size([32, 19, 19])
+E_T_T.shapetorch.Size([32, 361, 200]),E_T_V.shapetorch.Size([32, 931, 200]),E_V_V.shapetorch.Size([32, 931, 200])
+mask_T的形状是torch.Size([32, 19])，他负责决定哪里填成负无穷
+49it [00:13,  3.71it/s]##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 70, 70])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 70, 1])
+output的shape是: torch.Size([32, 70, 200])
+##mask_batch_T shape is : torch.Size([32, 21])
+##mask_batch_TT shape is : torch.Size([32, 21, 21])
+E_T_T.shapetorch.Size([32, 441, 200]),E_T_V.shapetorch.Size([32, 1029, 200]),E_V_V.shapetorch.Size([32, 1029, 200])
+mask_T的形状是torch.Size([32, 21])，他负责决定哪里填成负无穷
+50it [00:13,  3.71it/s]##mask_batch_T shape is : torch.Size([32, 74])
+##mask_batch_TT shape is : torch.Size([32, 74, 74])
+E_T_T.shapetorch.Size([32, 5476, 200]),E_T_V.shapetorch.Size([32, 3626, 200]),E_V_V.shapetorch.Size([32, 3626, 200])
+mask_T的形状是torch.Size([32, 74])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 123, 123])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 123, 1])
+output的shape是: torch.Size([32, 123, 200])
+##mask_batch_T shape is : torch.Size([32, 74])
+##mask_batch_TT shape is : torch.Size([32, 74, 74])
+E_T_T.shapetorch.Size([32, 5476, 200]),E_T_V.shapetorch.Size([32, 3626, 200]),E_V_V.shapetorch.Size([32, 3626, 200])
+mask_T的形状是torch.Size([32, 74])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 123, 123])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 123, 1])
+output的shape是: torch.Size([32, 123, 200])
+##mask_batch_T shape is : torch.Size([32, 74])
+##mask_batch_TT shape is : torch.Size([32, 74, 74])
+E_T_T.shapetorch.Size([32, 5476, 200]),E_T_V.shapetorch.Size([32, 3626, 200]),E_V_V.shapetorch.Size([32, 3626, 200])
+mask_T的形状是torch.Size([32, 74])，他负责决定哪里填成负无穷
+51it [00:14,  3.14it/s]##mask_batch_T shape is : torch.Size([32, 49])
+##mask_batch_TT shape is : torch.Size([32, 49, 49])
+E_T_T.shapetorch.Size([32, 2401, 200]),E_T_V.shapetorch.Size([32, 2401, 200]),E_V_V.shapetorch.Size([32, 2401, 200])
+mask_T的形状是torch.Size([32, 49])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 98, 98])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 98, 1])
+output的shape是: torch.Size([32, 98, 200])
+##mask_batch_T shape is : torch.Size([32, 49])
+##mask_batch_TT shape is : torch.Size([32, 49, 49])
+E_T_T.shapetorch.Size([32, 2401, 200]),E_T_V.shapetorch.Size([32, 2401, 200]),E_V_V.shapetorch.Size([32, 2401, 200])
+mask_T的形状是torch.Size([32, 49])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([32, 98, 98])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([32, 98, 1])
+output的shape是: torch.Size([32, 98, 200])
+##mask_batch_T shape is : torch.Size([32, 49])
+##mask_batch_TT shape is : torch.Size([32, 49, 49])
+E_T_T.shapetorch.Size([32, 2401, 200]),E_T_V.shapetorch.Size([32, 2401, 200]),E_V_V.shapetorch.Size([32, 2401, 200])
+mask_T的形状是torch.Size([32, 49])，他负责决定哪里填成负无穷
+52it [00:14,  3.07it/s]##mask_batch_T shape is : torch.Size([10, 26])
+##mask_batch_TT shape is : torch.Size([10, 26, 26])
+E_T_T.shapetorch.Size([10, 676, 200]),E_T_V.shapetorch.Size([10, 1274, 200]),E_V_V.shapetorch.Size([10, 1274, 200])
+mask_T的形状是torch.Size([10, 26])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([10, 75, 75])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([10, 75, 1])
+output的shape是: torch.Size([10, 75, 200])
+##mask_batch_T shape is : torch.Size([10, 26])
+##mask_batch_TT shape is : torch.Size([10, 26, 26])
+E_T_T.shapetorch.Size([10, 676, 200]),E_T_V.shapetorch.Size([10, 1274, 200]),E_V_V.shapetorch.Size([10, 1274, 200])
+mask_T的形状是torch.Size([10, 26])，他负责决定哪里填成负无穷
+adj matrix shape is :@@## torch.Size([10, 75, 75])
+adj乘hidden.float()是m+r 200
+denom的shape是: torch.Size([10, 75, 1])
+output的shape是: torch.Size([10, 75, 200])
+##mask_batch_T shape is : torch.Size([10, 26])
+##mask_batch_TT shape is : torch.Size([10, 26, 26])
+E_T_T.shapetorch.Size([10, 676, 200]),E_T_V.shapetorch.Size([10, 1274, 200]),E_V_V.shapetorch.Size([10, 1274, 200])
+mask_T的形状是torch.Size([10, 26])，他负责决定哪里填成负无穷
+53it [00:14,  3.72it/s]53it [00:14,  3.60it/s]
+783 343 392 156
+Test: Time: 15.0598, Acc: 0.5609, Loss: 0.6902, Rumor_R: 0.2847, Rumor_P: 0.3126, Rumor_F: 0.2980, Non_Rumor_R: 0.6954, Non_Rumor_P: 0.6664, Non_Rumor_F1: 0.6806
+Traceback (most recent call last):
+  File "train_two_record_model.py", line 301, in <module>
+    main(args)
+  File "train_two_record_model.py", line 182, in main
+    experiment.log_metrics(train_metircs, epoch=epoch)
+AttributeError: 'NoneType' object has no attribute 'log_metrics'

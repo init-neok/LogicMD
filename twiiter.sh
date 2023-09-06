@@ -55,4 +55,4 @@ phase='train'
 #CUDA_VISIBLE_DEVICES=1 python train_two.py --data='twitter'  --tag='lr-0.25' --batch-size=32 --lr=0.0001 --phase=$phase --epochs=20  --log="twitter-0.25"   --hop='three' --finetune='false' --threshold=0.4 --rate=0.25 --type='fix' --sizeclues='10#10#10#10#10'  --topk=5 --wd=0.0001 --instancedim=200
 
 # final twitter
-CUDA_VISIBLE_DEVICES=1 python train_two_record_model.py --data='twitter'  --tag='final-model' --batch-size=32 --lr=0.0001 --phase=$phase --epochs=20  --log="twitter-final-model"   --hop='three' --finetune='false' --threshold=0.4 --rate=0.1 --type='fix' --sizeclues='10#10#10#10#10'  --topk=5 --wd=0.0005 --instancedim=200
+CUDA_VISIBLE_DEVICES=0 python train_two_record_model.py --data='twitter'  --tag='final-model' --batch-size=32 --lr=0.0001 --phase=$phase --epochs=20  --log="twitter-final-model"   --hop='three' --finetune='false' --threshold=0.4 --rate=0.1 --type='fix' --sizeclues='10#10#10#10#10'  --topk=5 --wd=0.0005 --instancedim=200

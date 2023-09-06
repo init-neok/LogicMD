@@ -298,66 +298,67 @@ def train_model(dataloader, model, optimizer, epoch, args):
 if __name__ == '__main__':
     # must record every result
     args = get_parser()
-    experiment = Experiment(
-        api_key="",
-        project_name="",
-        workspace="",
-    )
-    experiment.set_name("LogicDM"+str(args.data)+"final-model")
-    experiment.add_tag(args.tag)
-    experiment.log_parameters(
-        {
-            "lr": args.lr,
-            "split": args.split,
-            "epochs": args.epochs,
-            "log": args.log,
-            "sizeclues": args.sizeclues,
-            "topk": args.topk,
-            "threshold": args.threshold,
-            "rate": args.rate,
-            "hop": args.hop,
-            "finetune": args.finetune,
-            "wd": args.wd
+    main(args)
+    # experiment = Experiment(
+    #     api_key="",
+    #     project_name="",
+    #     workspace="",
+    # )
+    # experiment.set_name("LogicDM"+str(args.data)+"final-model")
+    # experiment.add_tag(args.tag)
+    # experiment.log_parameters(
+    #     {
+    #         "lr": args.lr,
+    #         "split": args.split,
+    #         "epochs": args.epochs,
+    #         "log": args.log,
+    #         "sizeclues": args.sizeclues,
+    #         "topk": args.topk,
+    #         "threshold": args.threshold,
+    #         "rate": args.rate,
+    #         "hop": args.hop,
+    #         "finetune": args.finetune,
+    #         "wd": args.wd
 
-        }
-    )
-    acc_seeds = []
-    r_rumor_seeds = []
-    p_rumor_seeds = []
-    f1_rumor_seeds = []
-    r_non_rumor_seeds = []
-    p_non_rumor_seeds = []
-    f1_non_rumor_seeds = []
-    ori_log = args.log
-    seeds_list = []
-    for i in range(1):
-        seeds_list.append(random.randint(0, 100000))
-    for i in range(1):
-        args.seed = seeds_list[i]
-        seed_everything(seed=args.seed)
-        args.log = "-".join([ori_log, str(args.seed)])
-        metrics_train_final = main(args, experiment=experiment)
-        acc_seeds.append(metrics_train_final[0])
-        r_rumor_seeds.append(metrics_train_final[1])
-        p_rumor_seeds.append(metrics_train_final[2])
-        f1_rumor_seeds.append(metrics_train_final[3])
-        r_non_rumor_seeds.append(metrics_train_final[4])
-        p_non_rumor_seeds.append(metrics_train_final[5])
-        f1_non_rumor_seeds.append(metrics_train_final[6])
-    avg_acc = np.average(acc_seeds)
-    avg_r_rumor = np.average(r_rumor_seeds)
-    avg_p_rumor = np.average(p_rumor_seeds)
-    avg_f1_rumor = np.average(f1_rumor_seeds)
-    avg_r_non_rumor = np.average(r_non_rumor_seeds)
-    avg_p_non_rumor = np.average(p_non_rumor_seeds)
-    avg_f1_non_rumor = np.average(f1_non_rumor_seeds)
+    #     }
+    # )
+    # acc_seeds = []
+    # r_rumor_seeds = []
+    # p_rumor_seeds = []
+    # f1_rumor_seeds = []
+    # r_non_rumor_seeds = []
+    # p_non_rumor_seeds = []
+    # f1_non_rumor_seeds = []
+    # ori_log = args.log
+    # seeds_list = []
+    # for i in range(1):
+    #     seeds_list.append(random.randint(0, 100000))
+    # for i in range(1):
+    #     args.seed = seeds_list[i]
+    #     seed_everything(seed=args.seed)
+    #     args.log = "-".join([ori_log, str(args.seed)])
+    #     metrics_train_final = main(args, experiment=experiment)
+    #     acc_seeds.append(metrics_train_final[0])
+    #     r_rumor_seeds.append(metrics_train_final[1])
+    #     p_rumor_seeds.append(metrics_train_final[2])
+    #     f1_rumor_seeds.append(metrics_train_final[3])
+    #     r_non_rumor_seeds.append(metrics_train_final[4])
+    #     p_non_rumor_seeds.append(metrics_train_final[5])
+    #     f1_non_rumor_seeds.append(metrics_train_final[6])
+    # avg_acc = np.average(acc_seeds)
+    # avg_r_rumor = np.average(r_rumor_seeds)
+    # avg_p_rumor = np.average(p_rumor_seeds)
+    # avg_f1_rumor = np.average(f1_rumor_seeds)
+    # avg_r_non_rumor = np.average(r_non_rumor_seeds)
+    # avg_p_non_rumor = np.average(p_non_rumor_seeds)
+    # avg_f1_non_rumor = np.average(f1_non_rumor_seeds)
 
-    final_best_metircs = {"-final_acc": avg_acc,
-                          "-final_r_romor": avg_r_rumor, "-final_p_rumor": avg_p_rumor,
-                          "-final_f1_romor": avg_f1_rumor, "-final_r_non_rumor": avg_r_non_rumor,
-                          "-final_p_non_romor": avg_p_non_rumor, "-final_f1_non_rumor": avg_f1_non_rumor
-                          }
-    experiment.log_metrics(final_best_metircs)
-    experiment.end()
+    # final_best_metircs = {"-final_acc": avg_acc,
+    #                       "-final_r_romor": avg_r_rumor, "-final_p_rumor": avg_p_rumor,
+    #                       "-final_f1_romor": avg_f1_rumor, "-final_r_non_rumor": avg_r_non_rumor,
+    #                       "-final_p_non_romor": avg_p_non_rumor, "-final_f1_non_rumor": avg_f1_non_rumor
+    #                       }
+    # experiment.log_metrics(final_best_metircs)
+    # experiment.end()
 
 

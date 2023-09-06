@@ -126,6 +126,8 @@ class RFND(nn.Module):
         gc_clause_list = []
         for gc_i in range(self.gcnumber):
             # (N,L,D)
+            print('##mask_batch_T shape is :',mask_batch_T.shape)#二维的tensor第一个是batchsieze 第二个是特征个数 token长度吧 每个batch不对齐
+            print('##mask_batch_TT shape is :',mask_batch_TT.shape)#三维tensor batchsize 特征长度 特征长度 应该是求个交互
             E_T_top_k, E_V_top_k, E_T_T_top_k, E_T_V_top_k, E_V_V_top_k = self.generate_topk_instance(texts=texts_0,
                                                                                                       imgs=imgs_0,
                                                                                                       mask_T=mask_batch_T,
@@ -201,7 +203,7 @@ class RFND(nn.Module):
             # 2, N
             gc_clause_list.append(torch.stack(multiple_guide_clauses.chunk(2), dim=0))
             if gc_i != len(self.gc):
-                graph = torch.cat([texts_0, imgs_0], dim=1).cuda()
+                graph = torch.cat([texts_0, imgs_0], dim=1).cuda()#节点矩阵
                 graph = self.gc[gc_i](graph, adj_matrix)
                 texts_0 = graph[:, :l, :]
                 imgs_0 = graph[:, l: , :]
@@ -237,10 +239,12 @@ class RFND(nn.Module):
             torch.cat([texts_T_V_1, imgs_T_V_2, texts_T_V_1 * imgs_T_V_2, texts_T_V_1 - imgs_T_V_2], dim=-1))
         E_V_V = self.linear_V_V(
             torch.cat([imgs_V_V_1, imgs_V_V_2, imgs_V_V_1 * imgs_V_V_2, imgs_V_V_1 - imgs_V_V_2], dim=-1))
-        E_T_T = E_T_T.view(E_T_T.size(0), -1, E_T_T.size(3))
+        E_T_T = E_T_T.view(E_T_T.size(0), -1, E_T_T.size(3))#从四维到三维，保持batchsize不变，特征维度不变
         E_T_V = E_T_V.view(E_T_V.size(0), -1, E_T_V.size(3))
         E_V_V = E_T_V.view(E_V_V.size(0), -1, E_V_V.size(3))
+        print('E_T_T.shape{},E_T_V.shape{},E_V_V.shape{}'.format(E_T_T.shape,E_T_V.shape,E_V_V.shape))
         # Find Top_K  need add mask to keep semantic dependency N,L
+        print('mask_T的形状是{}，他负责决定哪里填成负无穷'.format(mask_T.shape))
         E_T_score = self.linear_T_top_k(E_T).squeeze().masked_fill_(mask_T, float("-Inf"))
         # may add mask afterwards
         E_V_score = self.linear_V_top_k(E_V).squeeze()

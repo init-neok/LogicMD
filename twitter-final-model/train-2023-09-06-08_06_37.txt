@@ -1,0 +1,13 @@
+100
+1674
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "train_two_record_model.py", line 301, in <module>
+    main(args)
+  File "train_two_record_model.py", line 168, in main
+    train_loss, metrics_train = train_model(dataloader=train_loader, model=RFND_Model, optimizer=optimizer,
+  File "train_two_record_model.py", line 261, in train_model
+    mask_batch_text = mask_batch_text.cuda()
+  File "/root/miniconda3/envs/mocheg/lib/python3.8/site-packages/torch/cuda/__init__.py", line 247, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available

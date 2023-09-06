@@ -1,0 +1,16 @@
+100
+1674
+0it [00:00, ?it/s]1it [00:01,  1.41s/it]2it [00:01,  1.16it/s]3it [00:02,  1.47it/s]3it [00:02,  1.23it/s]
+0 0 18 78
+/root/code/LogicMD/utils/data_utils.py:223: RuntimeWarning: invalid value encountered in scalar divide
+  r_non_sarcasm = confusion[0][0] / (confusion[0][0] + confusion[0][1])
+Train Epoch 0: Time 2.7585, Acc: 0.8125, Loss: 2.1089, Rumor_R: 0.8125, Rumor_P: 1.0000, Rumor_F: 0.8966, Non_Rumor_R: 0.0000, Non_Rumor_P: 0.0000, Non_Rumor_F1: 0.0000
+0it [00:00, ?it/s]1it [00:00,  2.81it/s]2it [00:00,  3.27it/s]3it [00:00,  3.39it/s]4it [00:01,  3.46it/s]5it [00:01,  3.53it/s]6it [00:01,  3.57it/s]7it [00:02,  3.60it/s]8it [00:02,  3.66it/s]9it [00:02,  3.66it/s]10it [00:02,  3.64it/s]11it [00:03,  3.59it/s]12it [00:03,  3.58it/s]13it [00:03,  3.51it/s]14it [00:03,  3.58it/s]15it [00:04,  3.57it/s]16it [00:04,  3.57it/s]17it [00:04,  3.56it/s]18it [00:05,  3.61it/s]19it [00:05,  3.59it/s]20it [00:05,  3.57it/s]21it [00:05,  3.56it/s]22it [00:06,  3.63it/s]23it [00:06,  3.65it/s]24it [00:06,  3.65it/s]25it [00:06,  3.65it/s]26it [00:07,  3.66it/s]27it [00:07,  3.67it/s]28it [00:07,  3.63it/s]29it [00:08,  3.63it/s]30it [00:08,  3.71it/s]31it [00:08,  3.71it/s]32it [00:08,  3.76it/s]33it [00:09,  3.79it/s]34it [00:09,  3.80it/s]35it [00:09,  3.81it/s]36it [00:09,  3.75it/s]37it [00:10,  3.77it/s]38it [00:10,  3.81it/s]39it [00:10,  3.80it/s]40it [00:10,  3.82it/s]41it [00:11,  3.81it/s]42it [00:11,  3.79it/s]43it [00:11,  3.78it/s]44it [00:12,  3.74it/s]45it [00:12,  3.72it/s]46it [00:12,  3.75it/s]47it [00:12,  3.72it/s]48it [00:13,  3.64it/s]49it [00:13,  3.62it/s]50it [00:13,  3.65it/s]51it [00:14,  3.07it/s]52it [00:14,  3.07it/s]53it [00:14,  3.68it/s]53it [00:14,  3.61it/s]
+162 964 40 508
+Test: Time: 15.0264, Acc: 0.4002, Loss: 0.6953, Rumor_R: 0.9270, Rumor_P: 0.3451, Rumor_F: 0.5030, Non_Rumor_R: 0.1439, Non_Rumor_P: 0.8020, Non_Rumor_F1: 0.2440
+Traceback (most recent call last):
+  File "train_two_record_model.py", line 301, in <module>
+    main(args)
+  File "train_two_record_model.py", line 182, in main
+    experiment.log_metrics(train_metircs, epoch=epoch)
+AttributeError: 'NoneType' object has no attribute 'log_metrics'
